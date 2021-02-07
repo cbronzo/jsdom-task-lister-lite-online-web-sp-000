@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let newLi = document.createElement("li");
     let li = newLi.appendChild(text);
     ul.appendChild(li);
+  });
 
   
 });
