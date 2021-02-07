@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   form.addEventListener("submit", function(e){
     e.preventDefault();
+    
+    let description = document.getElementById("new-task-description").value;
+    let text = document.createTextNode(description);
+    let newLi = document.createElement("li");
   
   
   
